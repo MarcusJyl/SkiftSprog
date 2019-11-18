@@ -9,7 +9,7 @@ package sprogskift;
  *
  * @author thor
  */
-public class Dansk {
+public class Dansk implements SprogI { 
 
 	public void printMenu() {
 		System.out.println("Velkommen til hundeuddelingen");
@@ -24,6 +24,7 @@ public class Dansk {
 		System.out.println("Skift sprog: ");
 		System.out.println("1) Dansk");
 		System.out.println("2) Engelsk");
+		System.out.println("2) Jysk");
 	}
 	
 }
